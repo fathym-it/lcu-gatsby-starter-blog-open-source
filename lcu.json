@@ -2,11 +2,20 @@
   "Package": {
     "Name": "Blog Starter with Gatsby - Open Source",
     "Description": "A customizable starter template for you to create a blog.",
-    "Button": "Launch",
-    "Image": "https://www.fathym.com/assets/images/logo.png",
-    "PreviewImage": "https://www.fathym.com/assets/images/logo.png",
-    "SuccessType": "Project"
+    "Image": "https://www.fathym.com/img/starterblog.png",
+    "PreviewImage": "https://www.fathym.com/assets/images/gatsby-starter-blog.png"
   },
-  "EaC": "./assets/eac.json",
-  "Parameters": "./assets/parameters.json"
+  "Configurations": {
+    "Full": {
+      "Name": "Blog Starter with Gatsby - Open Source",
+      "Description": "Blog Starter with Gatsby - Open Source",
+      "Phases": [
+        {
+          "Name": "Setup Gatsby Starter Blog",
+          "Order": 1,
+          "Asset": "gatsby"
+        }
+      ]
+    }
+  }
 }
