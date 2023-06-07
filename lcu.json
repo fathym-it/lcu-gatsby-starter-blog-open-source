@@ -3,7 +3,13 @@
     "Name": "Blog Starter with Gatsby - Open Source",
     "Description": "A customizable starter template for you to create a blog.",
     "Image": "https://www.fathym.com/img/starterblog.png",
-    "PreviewImage": "https://www.fathym.com/assets/images/gatsby-starter-blog.png"
+    "PreviewImage": "https://www.fathym.com/assets/images/gatsby-starter-blog.png",
+    "Intents":[
+      "Gatsby",
+      "Getting started",
+      "Website",
+      "Application"
+    ]
   },
   "Configurations": {
     "Full": {
