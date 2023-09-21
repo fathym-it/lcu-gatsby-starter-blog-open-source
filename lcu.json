@@ -1,23 +1,24 @@
 {
   "Package": {
-    "Name": "Blog Starter with Gatsby - Open Source",
-    "Description": "A customizable starter template for you to create a blog.",
+    "Name": "Gatsby Blog Starter - NPM Launch",
+    "Description": "A Gatsby blog starter app deployed to Fathym via an NPM package.",
     "Image": "https://www.fathym.com/img/starterblog.png",
     "PreviewImage": "https://www.fathym.com/assets/images/gatsby-starter-blog.png",
     "Intents":[
       "Gatsby",
       "Getting started",
       "Website",
-      "Application"
+      "Application",
+      "NPM"
     ]
   },
   "Configurations": {
     "Full": {
-      "Name": "Blog Starter with Gatsby - Open Source",
-      "Description": "Blog Starter with Gatsby - Open Source",
+      "Name": "Gatsby Blog Starter - NPM Launch",
+      "Description": "A Gatsby blog starter app deployed to Fathym via an NPM package.",
       "Phases": [
         {
-          "Name": "Setup Gatsby Starter Blog",
+          "Name": "Setting Up Gatsby Blog Starter - NPM Launch",
           "Order": 1,
           "Asset": "gatsby"
         }

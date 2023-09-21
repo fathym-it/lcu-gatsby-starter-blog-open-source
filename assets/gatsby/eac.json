@@ -2,8 +2,8 @@
   "Applications": {
     "{{$1}}-gatsby-starter-blog-open-source": {
       "Details": {
-        "Description": "A basic starting point for blogs built with Gatsby.",
-        "Name": "Blog Starter with Gatsby - Open Source"
+        "Description": "A Gatsby blog starter app deployed to Fathym via an NPM package.",
+        "Name": "Gatsby Blog Starter - NPM Launch"
       },
       "LookupConfig": {
         "PathRegex": "/.*"
@@ -26,6 +26,10 @@
   },
   "Projects": {
     "{{PROJECT_LOOKUP}}": {
+      "Details": {
+        "Name": "{{#if (lookup EaC.Projects PROJECT_LOOKUP)}}{{#if Details.Name}}{{Details.Name}}{{/if}}{{else}}Gatsby Blog Starter - NPM Launch{{/if}}",
+        "Description": "{{#if (lookup EaC.Projects PROJECT_LOOKUP)}}{{#if Details.Description}}{{Details.Description}}{{/if}}{{else}}A Gatsby blog starter app deployed to Fathym via an NPM package.{{/if}}"
+      },
       "ApplicationLookups": [
         "{{$1}}-gatsby-starter-blog-open-source"
       ]
